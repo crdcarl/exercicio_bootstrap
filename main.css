@@ -1,0 +1,30 @@
+.row {
+    max-width: 1020px;
+    display:flex;
+    align-items:center;
+    margin-left: 380px;
+}
+
+.row h1 {
+    padding: 24px;
+    font-style: italic;
+}
+
+.col{ 
+    display: flex;
+} 
+
+.col form {
+    padding: 24px;
+}
+
+.col button {
+    margin-top: 12px;
+}
+
+.col form {
+    border-top: 3px solid red;
+    border-left: 3px solid rgb(38, 0, 255);
+    border-right: 3px solid red;
+    border-bottom: 3px solid rgb(38, 0, 255);
+}
